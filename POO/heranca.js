@@ -28,7 +28,7 @@ console.log(caneca.nome, caneca.preco, caneca.material);
 
 // Sobrescrevendo original do pai
 Caneca.prototype.aumento = function (valor) {
-    this.preco = 0;
+    this.preco = 1;
 };
 caneca.aumento(10);
 console.log(caneca.nome, caneca.preco, caneca.material);

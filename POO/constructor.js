@@ -11,6 +11,7 @@ function Aluno(nome, matricula) {
             configurable: false // Se pode 'configurar', apagar etc
         });
     */
+   
     Object.defineProperties(this, {
         nome: {
             enumerable: true,
